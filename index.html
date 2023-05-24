@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Lote de carros Bergoglio</title>
+</head>
+
+
+<body>
+
+
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/info.html.#honda_civic">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <div class="image"><img src="./images/civic.png" alt="civic"> <button id="buttonComprar">Más información</button>
+    </div>
+    <div class="image"><img src="./images/frontier.jpg" alt="paisaje"> <button id="buttonComprar">Más
+        información</button> </div>
+    <div class="image"><img src="./images/raptor.jpg" alt="paisaje"> <button id="buttonComprar">Más información</button>
+    </div>
+    <div class="image"><img src="./images/tiguan.jpg" alt="paisaje"> <button id="buttonComprar">Más información</button>
+    </div>
+    <div class="image"><img src="./images/vento.png" alt="civic"> <button id="buttonComprar">Más información</button>
+    </div>
+    <div class="image"><img src="./images/bmw.jpg" alt="paisaje"> <button id="buttonComprar">Más
+        información</button> </div>
+    <div class="image"><img src="./images/bugati.jpg" alt="paisaje"> <button id="buttonComprar">Más información</button>
+    </div>
+
+
+  </main>
+
+  <section class="section1">
+    <!-- Button trigger modal -->
+    <button type="button" id="butcomprar" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Comprar</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar productos al carrito</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="anuncio">
+              !Tenemos las mejores marcas y modelos para cubrir tus nececidades! <br>
+               !Ademas contamos con sistema de financiamiento, no esperes más animate a comprar!
+            </p>
+            <img class="img_comprar" src="images/Civicc.jpg" alt="logo">
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="butcerrar" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" id="butguardar" class="btn btn-primary"><a href="./pages/info.html">Aceptar</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="./js/main.js"></script>
+
+  <footer class="footer">
+    <div class="additional-info">
+      <ul class="additional-info-list">
+        <li>
+          <a href="#quote" class="scroll-link">
+            <div>
+              Precio desde
+              <b>$545,900</b>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#quote" class="scroll-link">
+            <div>
+              Mensualidades desde
+              <b>$6,402<sup>*</sup></b>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#quote" class="scroll-link">
+            <div class="d-none d-md-block"><span>
+                Tasa desde <b>12.99%<sup>**</sup></b></span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>*Mensualidad desde $6,402 </h2>
+      <h3>Vigencia del 01 al 31 de mayo de 2023 o hasta agotar existencia lo que suceda primero. Mensualidades desde
+        $6,402 en la compra de Honda® CIVIC® en versión I-STYLE modelo 2023, desde 40% (cuarenta) de enganche y plazos
+        de 72 meses de $6,401.77, con tasa de 11.99% y un CAT de 18.90% sin IVA promedio informativo. No considera el
+        costo del seguro de daños ni de vida, mismo que deberá ser cubierto financiado en la mensualidad. Crédito
+        exclusivo con Honda Finance®. Aplican restricciones. No incluye accesorios del vehículo. No aplica con otras
+        promociones. Para más información acerca de requisitos y opciones de financiamiento visite su Distribuidor
+        autorizado Honda® más cercano.
+
+        <h2>**CIVIC® FINANCE Tasa desde 11.99%.</h2>
+        <h3>Vigencia del 01 al 31 de mayo de 2023 o hasta agotar existencia lo que suceda primero. Tasa desde 11.99% en
+          la compra de Honda® CIVIC® en versiones I-STYLE, SPORT y TOURING modelo 2023, desde 40% de enganche y plazos
+          desde 12 a 72 meses, con un CAT de 18.90% sin IVA promedio informativo. No considera el costo del seguro de
+          daños ni de vida, mismo que deberá ser cubierto financiado en la mensualidad. Crédito exclusivo con Honda
+          Finance®. Aplican restricciones. No incluye accesorios del vehículo. No aplica con otras promociones. Para más
+          información acerca de requisitos y opciones de financiamiento visite su Distribuidor autorizado Honda® más
+          cercano.</h3>
+    </div>
+    
+    
+  </footer>
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
